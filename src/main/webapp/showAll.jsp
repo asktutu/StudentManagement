@@ -107,22 +107,31 @@
                     <table class="table table-striped table-bordered table-list">
                         <thead>
                         <tr>
-                            <th><em class="fa fa-cog"></em></th>
-                            <th class="hidden-xs">ID</th>
+
+                            <th class="hidden-xs">Customer No</th>
                             <th>Name</th>
+                            <th>Cell Phone</th>
                             <th>Email</th>
+                            <th>Address</th>
+                            <th><em class="fa fa-cog"></em></th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
+
+                            <td class="hidden-xs">2022050301</td>
+                            <td>Colin Lin</td>
+                            <td>13201876140</td>
+                            <td>colinlin@126.com</td>
+                            <td>陕西西安新城区</td>
                             <td align="center">
                                 <a class="btn btn-default"><em class="fa fa-pencil"></em></a>
                                 <a class="btn btn-danger"><em class="fa fa-trash"></em></a>
                             </td>
-                            <td class="hidden-xs">1</td>
-                            <td>John Doe</td>
-                            <td>johndoe@example.com</td>
                         </tr>
+
+
+
                         </tbody>
                     </table>
 
@@ -135,9 +144,7 @@
                             <ul class="pagination hidden-xs pull-right">
                                 <li><a href="#">1</a></li>
                                 <li><a href="#">2</a></li>
-                                <li><a href="#">3</a></li>
-                                <li><a href="#">4</a></li>
-                                <li><a href="#">5</a></li>
+
                             </ul>
                             <ul class="pagination visible-xs pull-right">
                                 <li><a href="#">«</a></li>
